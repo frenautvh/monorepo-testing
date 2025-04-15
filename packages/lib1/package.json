@@ -1,0 +1,15 @@
+{
+  "name": "lib1",
+  "version": "1.0.0",
+  "description": "Lib1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "build-tsc"
+  },
+  "dependencies": {
+    "lib2": "workspace:*"
+  },
+  "devDependencies": {
+    "scripts": "workspace:*"
+  }
+}

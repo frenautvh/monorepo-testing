@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "${configDir}/dist",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true
+  },
+  "include": ["${configDir}/src/**/*.ts"],
+  "exclude": ["${configDir}/dist"]
+}
