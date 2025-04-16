@@ -4,7 +4,7 @@
   "description": "Lib2",
   "main": "dist/index.js",
   "scripts": {
-    "build": "build-tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "scripts": "workspace:*"
